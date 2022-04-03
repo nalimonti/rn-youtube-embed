@@ -6,11 +6,8 @@ export default function App() {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: 'red' }}>
       <Embed
-        videoId="NgruXqvWdp4"
+        videoId="M7lc1UVf-VE"
         posterUrl="https://img.youtube.com/vi/NgruXqvWdp4/0.jpg"
-        playerVars={{
-
-        }}
       />
     </SafeAreaView>
   );

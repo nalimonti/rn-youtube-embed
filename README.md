@@ -7,15 +7,23 @@ WebView based YouTube embed for React Native
 ```sh
 npm install rn-youtube-embed
 ```
+or
+```sh
+yarn add rn-youtube-embed
+```
 
 ## Usage
 
 ```js
-import { multiply } from "rn-youtube-embed";
+import YoutubeEmbed from 'rn-youtube-embed';
 
-// ...
-
-const result = await multiply(3, 7);
+const App = () => {
+  return (
+    <YoutubeEmbed
+      videoId="M7lc1UVf-VE"
+    />
+  )
+}
 ```
 
 ## Contributing
