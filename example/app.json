@@ -1,0 +1,22 @@
+{
+  "name": "rn-youtube-embed-example",
+  "displayName": "RnYoutubeEmbed Example",
+  "expo": {
+    "name": "rn-youtube-embed-example",
+    "slug": "rn-youtube-embed-example",
+    "description": "Example app for rn-youtube-embed",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
