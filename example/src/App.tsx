@@ -1,19 +1,18 @@
 import * as React from 'react';
-
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'rn-youtube-embed';
+import { StyleSheet, SafeAreaView } from 'react-native';
+import Embed from 'rn-youtube-embed';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
+    <SafeAreaView style={{ flex: 1, backgroundColor: 'red' }}>
+      <Embed
+        videoId="NgruXqvWdp4"
+        posterUrl="https://img.youtube.com/vi/NgruXqvWdp4/0.jpg"
+        playerVars={{
+
+        }}
+      />
+    </SafeAreaView>
   );
 }
 
